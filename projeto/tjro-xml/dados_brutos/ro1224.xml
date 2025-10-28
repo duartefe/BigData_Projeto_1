@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects type="array">
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">2073595</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ABDIEL NEVES TOLEDO</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Estatutário (a)</nm-sitfunc>
+    <cdg-unidade>1813</cdg-unidade>
+    <nm-unidade>Central de Processos Eletrônicos do 1º Grau</nm-unidade>
+    <cdg-cargo type="decimal">10100288.0</cdg-cargo>
+    <nm-cargo>TÉCNICO (A) JUDICIÁRIO (A)</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2019-07-09</dt-admissao>
+    <nm-cargoext>GESTOR (A) DE EQUIPE</nm-cargoext>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">0.0</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">9501.35</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">34110.76</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">1596.82</vl-previdencia-publica>
+    <vl-imposto-renda type="float">6133.83</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">7730.65</vl-total-descontos>
+    <vl-total-liquido type="float">20523.67</vl-total-liquido>
+    <vl-indenizacoes type="float">2964.74</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">34110.76</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">7730.65</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">26380.11</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">0.0</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">12644.67</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">9000.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">2056151</cdg-ordem>
+    <cdg-funcional type="integer">1</cdg-funcional>
+    <nm-pessoa>ABDON RIBEIRO DA SILVA NETO</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Estatutário (a)</nm-sitfunc>
+    <cdg-unidade>1089</cdg-unidade>
+    <nm-unidade>Gabinete do Desembargador Daniel Ribeiro Lagos</nm-unidade>
+    <cdg-cargo type="decimal">10100312.0</cdg-cargo>
+    <nm-cargo>ADMINISTRADOR (A)</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2010-04-06</dt-admissao>
+    <nm-cargoext>ASSESSOR (A) DE DESEMBARGADOR (A)</nm-cargoext>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">14129.18</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">5700.81</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">52434.74</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">4065.12</vl-previdencia-publica>
+    <vl-imposto-renda type="float">9158.75</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">13223.87</vl-total-descontos>
+    <vl-total-liquido type="float">29008.09</vl-total-liquido>
+    <vl-indenizacoes type="float">4346.52</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">52434.74</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">13223.87</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">39210.87</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">389.12</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">20219.11</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">7650.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">2053748</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ABEL SIDNEY DE SOUZA</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Estatutário (a)</nm-sitfunc>
+    <cdg-unidade>1582065</cdg-unidade>
+    <nm-unidade>Núcleo Psicossocial de Apoio à Execução de Penas e Medidas Alternativas</nm-unidade>
+    <cdg-cargo type="decimal">10100288.0</cdg-cargo>
+    <nm-cargo>TÉCNICO (A) JUDICIÁRIO (A)</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2009-06-15</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">6870.61</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">27031.84</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">1987.96</vl-previdencia-publica>
+    <vl-imposto-renda type="float">4100.4</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">6088.36</vl-total-descontos>
+    <vl-total-liquido type="float">14664.5</vl-total-liquido>
+    <vl-indenizacoes type="float">3616.98</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">27031.84</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">6088.36</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">20943.48</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">229.25</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">7315.0</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">9000.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">2039184</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ABEL SILVERIO DOS SANTOS FILHO</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Estatutário (a)</nm-sitfunc>
+    <cdg-unidade>1581822</cdg-unidade>
+    <nm-unidade>Central de Atendimento da Comarca de Alta Floresta d' Oeste</nm-unidade>
+    <cdg-cargo type="decimal">10100288.0</cdg-cargo>
+    <nm-cargo>TÉCNICO (A) JUDICIÁRIO (A)</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">1999-10-08</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao>SERVIÇO ESPECIAL II  FG/4</nm-funcao>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">7143.15</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">1773.62</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">31473.23</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">2086.02</vl-previdencia-publica>
+    <vl-imposto-renda type="float">5154.96</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">7240.98</vl-total-descontos>
+    <vl-total-liquido type="float">18866.46</vl-total-liquido>
+    <vl-indenizacoes type="float">3746.37</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">31473.23</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">7240.98</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">24232.25</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">306.91</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">9503.18</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">9000.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">22659</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ABNAELIA CARVALHO DE LIMA</nm-pessoa>
+    <gr-servidor type="decimal">2.0</gr-servidor>
+    <nm-sitfunc>Aposentado (a)</nm-sitfunc>
+    <cdg-unidade nil="true"/>
+    <nm-unidade nil="true"/>
+    <cdg-cargo type="decimal">10100333.0</cdg-cargo>
+    <nm-cargo>ANALISTA JUDICIÁRIO</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2013-12-06</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">11431.31</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">26683.7</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">2374.38</vl-previdencia-publica>
+    <vl-imposto-renda type="float">4548.8</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">6923.18</vl-total-descontos>
+    <vl-total-liquido type="float">14674.76</vl-total-liquido>
+    <vl-indenizacoes type="float">1251.84</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">26683.7</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">6923.18</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">19760.52</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">1284.62</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">12715.93</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">0.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">41564</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ABRAHAO FREIRE DE LIMA FILHO</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Estatutário (a)</nm-sitfunc>
+    <cdg-unidade>1320</cdg-unidade>
+    <nm-unidade>Núcleo de Segurança da Comarca de Cacoal/RO</nm-unidade>
+    <cdg-cargo type="decimal">10100529.0</cdg-cargo>
+    <nm-cargo>AGENTE DE SEGURANÇA</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">1990-12-18</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">7695.23</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">33490.27</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">2414.78</vl-previdencia-publica>
+    <vl-imposto-renda type="float">5457.16</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">7871.94</vl-total-descontos>
+    <vl-total-liquido type="float">18121.19</vl-total-liquido>
+    <vl-indenizacoes type="float">4335.73</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">33490.27</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">7871.94</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">25618.33</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">3343.73</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">9115.58</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">9000.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">2074630</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ABZAEL MATIAS DOS SANTOS</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Estatutário (a)</nm-sitfunc>
+    <cdg-unidade>821</cdg-unidade>
+    <nm-unidade>Núcleo Psicossocial da Comarca de Cacoal/RO</nm-unidade>
+    <cdg-cargo type="decimal">10100310.0</cdg-cargo>
+    <nm-cargo>PSICÓLOGO (A)</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2019-12-19</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">9856.82</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">33387.35</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">2180.08</vl-previdencia-publica>
+    <vl-imposto-renda type="float">5490.54</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">7670.62</vl-total-descontos>
+    <vl-total-liquido type="float">17740.9</vl-total-liquido>
+    <vl-indenizacoes type="float">4346.11</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">33387.35</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">7670.62</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">25716.73</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">0.0</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">10184.42</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">9000.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">2050056</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ACACIA FRANCIELLI BUENO POSSMOSER</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Estatutário (a)</nm-sitfunc>
+    <cdg-unidade>466</cdg-unidade>
+    <nm-unidade>Gabinete da 3ª Vara Cível da Comarca de Cacoal/RO</nm-unidade>
+    <cdg-cargo type="decimal">10100288.0</cdg-cargo>
+    <nm-cargo>TÉCNICO (A) JUDICIÁRIO (A)</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2006-05-23</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao>SECRETÁRIO (A) DE GABINETE  FG/5</nm-funcao>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">7512.61</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">2026.97</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">31814.4</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">2169.66</vl-previdencia-publica>
+    <vl-imposto-renda type="float">5463.0</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">7632.66</vl-total-descontos>
+    <vl-total-liquido type="float">19067.92</vl-total-liquido>
+    <vl-indenizacoes type="float">3262.94</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">31814.4</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">7632.66</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">24181.74</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">236.15</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">9775.73</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">9000.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">38563</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ACELINA CARVALHO</nm-pessoa>
+    <gr-servidor type="decimal">2.0</gr-servidor>
+    <nm-sitfunc>Aposentado (a)</nm-sitfunc>
+    <cdg-unidade nil="true"/>
+    <nm-unidade nil="true"/>
+    <cdg-cargo type="decimal">1010313.0</cdg-cargo>
+    <nm-cargo>AGENTE JUDICIÁRIO - CONTADOR</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2000-07-03</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">8583.28</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">22127.18</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">1700.88</vl-previdencia-publica>
+    <vl-imposto-renda type="float">2363.86</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">4064.74</vl-total-descontos>
+    <vl-total-liquido type="float">12314.14</vl-total-liquido>
+    <vl-indenizacoes type="float">1506.1</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">22127.18</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">4064.74</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">18062.44</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">1727.26</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">10310.54</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">0.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">1011758</cdg-ordem>
+    <cdg-funcional type="integer">1</cdg-funcional>
+    <nm-pessoa>ACIR TEIXEIRA GRECIA</nm-pessoa>
+    <gr-servidor type="decimal">1.0</gr-servidor>
+    <nm-sitfunc>Magistrado (a)</nm-sitfunc>
+    <cdg-unidade>329</cdg-unidade>
+    <nm-unidade>1º Juizado Especial Cível da Comarca de Porto Velho/RO</nm-unidade>
+    <cdg-cargo type="decimal">10600.0</cdg-cargo>
+    <nm-cargo>JUIZ (A) DE DIREITO DA 3ª ENTRÂNCIA</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">1</membro>
+    <dt-admissao type="date">2003-04-30</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao>GRATIFICAÇÃO POR CUMULAÇÃO DE JURISDIÇÃO AGRARIA  FA/3</nm-funcao>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">0.0</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">37731.81</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">230532.35</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">14092.19</vl-previdencia-publica>
+    <vl-imposto-renda type="float">18109.98</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">6898.56</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">757.03</vl-descontos-diversos>
+    <vl-total-descontos type="float">39857.76</vl-total-descontos>
+    <vl-total-liquido type="float">173637.8</vl-total-liquido>
+    <vl-indenizacoes type="float">30076.29</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">230532.35</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">39857.76</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">190674.59</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">3451.76</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">159272.49</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">0.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">2072394</cdg-ordem>
+    <cdg-funcional type="integer">1</cdg-funcional>
+    <nm-pessoa>ACSA LILIANE CARVALHO BRITO SOUZA</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Comissionado (a)</nm-sitfunc>
+    <cdg-unidade>212</cdg-unidade>
+    <nm-unidade>Gabinete do Desembargador Rowilson Teixeira</nm-unidade>
+    <cdg-cargo nil="true"/>
+    <nm-cargo nil="true"/>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2018-05-04</dt-admissao>
+    <nm-cargoext>OFICIAL DE GABINETE DE DESEMBARGADOR</nm-cargoext>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">8551.21</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">8551.21</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">35821.6</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">908.85</vl-previdencia-publica>
+    <vl-imposto-renda type="float">4886.3</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">55.9</vl-descontos-diversos>
+    <vl-total-descontos type="float">5851.05</vl-total-descontos>
+    <vl-total-liquido type="float">25241.59</vl-total-liquido>
+    <vl-indenizacoes type="float">3068.24</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">35821.6</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">5851.05</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">29970.55</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">0.0</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">6650.94</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">9000.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">36218</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ADAILTO FERREIRA DA SILVA</nm-pessoa>
+    <gr-servidor type="decimal">2.0</gr-servidor>
+    <nm-sitfunc>Aposentado (a)</nm-sitfunc>
+    <cdg-unidade nil="true"/>
+    <nm-unidade nil="true"/>
+    <cdg-cargo type="decimal">10100288.0</cdg-cargo>
+    <nm-cargo>TÉCNICO (A) JUDICIÁRIO (A)</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2018-03-02</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">6547.89</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">16121.58</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">913.48</vl-previdencia-publica>
+    <vl-imposto-renda type="float">929.46</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">1842.94</vl-total-descontos>
+    <vl-total-liquido type="float">8852.92</vl-total-liquido>
+    <vl-indenizacoes type="float">1124.76</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">16121.58</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">1842.94</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">14278.64</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">950.52</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">7498.41</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">0.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">2033534</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ADALBERTO CARLOS DO NASCIMENTO SILVA</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Estatutário (a)</nm-sitfunc>
+    <cdg-unidade>2030</cdg-unidade>
+    <nm-unidade>Secretaria de Gestão de Pessoas</nm-unidade>
+    <cdg-cargo type="decimal">10100319.0</cdg-cargo>
+    <nm-cargo>MATEMÁTICO (A)</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">1996-02-05</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">17005.28</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">40605.54</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">5282.74</vl-previdencia-publica>
+    <vl-imposto-renda type="float">5570.86</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">10853.6</vl-total-descontos>
+    <vl-total-liquido type="float">17468.96</vl-total-liquido>
+    <vl-indenizacoes type="float">2300.0</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">40605.54</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">10853.6</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">29751.94</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">1861.63</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">19438.63</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">0.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">37745</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ADALGISA DA SILVA MOREIRA</nm-pessoa>
+    <gr-servidor type="decimal">2.0</gr-servidor>
+    <nm-sitfunc>Aposentado (a)</nm-sitfunc>
+    <cdg-unidade nil="true"/>
+    <nm-unidade nil="true"/>
+    <cdg-cargo type="decimal">10100128.0</cdg-cargo>
+    <nm-cargo>SERVIÇOS GERAIS</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2009-06-07</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">2896.37</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">6812.74</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">0.0</vl-previdencia-publica>
+    <vl-imposto-renda type="float">0.0</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">0.0</vl-total-descontos>
+    <vl-total-liquido type="float">3741.24</vl-total-liquido>
+    <vl-indenizacoes type="float">1020.0</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">6812.74</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">0.0</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">6812.74</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">0.0</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">2896.37</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">0.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">2055422</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ADALTON LUIZ DA SILVA</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Estatutário (a)</nm-sitfunc>
+    <cdg-unidade>1582133</cdg-unidade>
+    <nm-unidade>Núcleo da Central de Mandados da Comarca de Ariquemes</nm-unidade>
+    <cdg-cargo type="decimal">10100322.0</cdg-cargo>
+    <nm-cargo>OFICIAL DE JUSTIÇA</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2010-02-01</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">35733.78</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">1042667.25</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">2180.08</vl-previdencia-publica>
+    <vl-imposto-renda type="float">18301.37</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">5488.61</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">25970.06</vl-total-descontos>
+    <vl-total-liquido type="float">1005747.89</vl-total-liquido>
+    <vl-indenizacoes type="float">961173.4</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">1042667.25</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">25970.06</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">1016697.19</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">308.72</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">36451.35</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">9000.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">2039451</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ADALUCE COELHO JORGE</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Estatutário (a)</nm-sitfunc>
+    <cdg-unidade>1582067</cdg-unidade>
+    <nm-unidade>Núcleo Psicossocial de Apoio à Execução de Medidas Socioeducativas</nm-unidade>
+    <cdg-cargo type="decimal">10100310.0</cdg-cargo>
+    <nm-cargo>PSICÓLOGO (A)</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2000-01-11</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">16397.52</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">52167.6</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">4967.1</vl-previdencia-publica>
+    <vl-imposto-renda type="float">9725.21</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">14692.31</vl-total-descontos>
+    <vl-total-liquido type="float">27097.47</vl-total-liquido>
+    <vl-indenizacoes type="float">4721.49</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">52167.6</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">14692.31</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">37475.29</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">1342.1</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">20706.49</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">9000.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">38059</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ADELIA LOBATO RODRIGUES</nm-pessoa>
+    <gr-servidor type="decimal">2.0</gr-servidor>
+    <nm-sitfunc>Aposentado (a)</nm-sitfunc>
+    <cdg-unidade nil="true"/>
+    <nm-unidade nil="true"/>
+    <cdg-cargo type="decimal">1010207.0</cdg-cargo>
+    <nm-cargo>TÉCNICO JUDICIÁRIO - ASSISTENTE SOCIAL</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">1996-02-08</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">8536.64</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">22866.2</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">1804.34</vl-previdencia-publica>
+    <vl-imposto-renda type="float">2538.64</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">4342.98</vl-total-descontos>
+    <vl-total-liquido type="float">12656.04</vl-total-liquido>
+    <vl-indenizacoes type="float">1506.1</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">22866.2</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">4342.98</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">18523.22</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">2143.41</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">10680.05</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">0.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">5113170</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ADELIANE BARBOZA FEIJO</nm-pessoa>
+    <gr-servidor type="decimal">0.0</gr-servidor>
+    <nm-sitfunc>Estatutário (a)</nm-sitfunc>
+    <cdg-unidade>2022</cdg-unidade>
+    <nm-unidade>Seção de Liquidação</nm-unidade>
+    <cdg-cargo type="decimal">10100288.0</cdg-cargo>
+    <nm-cargo>TÉCNICO (A) JUDICIÁRIO (A)</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2024-04-25</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">4933.49</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">17632.46</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">1151.15</vl-previdencia-publica>
+    <vl-imposto-renda type="float">1830.76</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">2981.91</vl-total-descontos>
+    <vl-total-liquido type="float">14045.35</vl-total-liquido>
+    <vl-indenizacoes type="float">3409.98</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">17632.46</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">2981.91</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">14650.55</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">0.0</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">3288.99</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">6000.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">20168</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ADELINA DE FATIMA COELHO GOMES MEDENSKI</nm-pessoa>
+    <gr-servidor type="decimal">2.0</gr-servidor>
+    <nm-sitfunc>Aposentado (a)</nm-sitfunc>
+    <cdg-unidade nil="true"/>
+    <nm-unidade nil="true"/>
+    <cdg-cargo type="decimal">10100288.0</cdg-cargo>
+    <nm-cargo>TÉCNICO (A) JUDICIÁRIO (A)</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2018-04-06</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">6646.13</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">16313.0</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">938.4</vl-previdencia-publica>
+    <vl-imposto-renda type="float">1075.84</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">2014.24</vl-total-descontos>
+    <vl-total-liquido type="float">6334.74</vl-total-liquido>
+    <vl-indenizacoes type="float">1138.12</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">16313.0</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">2014.24</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">14298.76</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">941.31</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">7587.44</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">0.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+  <object>
+    <ano type="integer">2024</ano>
+    <mes type="integer">12</mes>
+    <cdg-orgao type="integer">789</cdg-orgao>
+    <cdg-ordem type="integer">21679</cdg-ordem>
+    <cdg-funcional type="integer">0</cdg-funcional>
+    <nm-pessoa>ADELVIRO NUNES</nm-pessoa>
+    <gr-servidor type="decimal">2.0</gr-servidor>
+    <nm-sitfunc>Aposentado (a)</nm-sitfunc>
+    <cdg-unidade nil="true"/>
+    <nm-unidade nil="true"/>
+    <cdg-cargo type="decimal">10100322.0</cdg-cargo>
+    <nm-cargo>OFICIAL DE JUSTIÇA</nm-cargo>
+    <nm-orgao-origem nil="true"/>
+    <membro type="integer">0</membro>
+    <dt-admissao type="date">2018-06-13</dt-admissao>
+    <nm-cargoext nil="true"/>
+    <nm-funcao nil="true"/>
+    <nm-classe nil="true"/>
+    <nm-padrao nil="true"/>
+    <vl-remuneracao type="float">18353.68</vl-remuneracao>
+    <vl-verbas-remuneratorias nil="true"/>
+    <vl-funcao-cargo-comis type="float">0.0</vl-funcao-cargo-comis>
+    <vl-grat-natalina nil="true"/>
+    <vl-ferias-13 nil="true"/>
+    <vl-abono-permanencia nil="true"/>
+    <vl-total-rendimentos type="float">41633.84</vl-total-rendimentos>
+    <vl-previdencia-publica type="float">4427.62</vl-previdencia-publica>
+    <vl-imposto-renda type="float">6970.12</vl-imposto-renda>
+    <vl-retencao-teto-cons type="float">0.0</vl-retencao-teto-cons>
+    <vl-descontos-diversos type="float">0.0</vl-descontos-diversos>
+    <vl-total-descontos type="float">11397.74</vl-total-descontos>
+    <vl-total-liquido type="float">18656.33</vl-total-liquido>
+    <vl-indenizacoes type="float">1536.0</vl-indenizacoes>
+    <vl-outras-remuneracoes nil="true"/>
+    <vl-rendimento-bruto type="float">41633.84</vl-rendimento-bruto>
+    <vl-desconto-bruto type="float">11397.74</vl-desconto-bruto>
+    <vl-rendimento-liquido type="float">30236.1</vl-rendimento-liquido>
+    <vl-rem-origem nil="true"/>
+    <vl-diarias type="float">0.0</vl-diarias>
+    <vl-vantagens-pessoais type="float">1695.24</vl-vantagens-pessoais>
+    <vl-vantagens-eventuais type="float">20048.92</vl-vantagens-eventuais>
+    <vl-deducoes-vencimento type="float">0.0</vl-deducoes-vencimento>
+    <vl-gratificacoes type="float">0.0</vl-gratificacoes>
+    <vl-remuneracao-origem type="float">0.0</vl-remuneracao-origem>
+  </object>
+</objects>
