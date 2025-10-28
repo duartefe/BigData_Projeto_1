@@ -1,5 +1,16 @@
-⚙️ Como executar o app
-1. Estrutura de pastas esperada
+# 🧭 Dashboard de Remuneração dos Servidores dos Tribunais de Justiça
+
+Este projeto consolida e analisa dados públicos de remuneração de servidores de três Tribunais de Justiça — **TJGO**, **TJRN** e **TJRO** — entre **setembro/2024 e agosto/2025**, a partir de arquivos CSV normalizados.
+
+O objetivo é permitir **análises comparativas, acompanhamento de variações salariais, identificação de excedentes ao teto constitucional** e **visualização de trajetórias remuneratórias** ao longo do tempo.
+
+---
+
+## ⚙️ Como executar o app
+
+### 🗂️ Estrutura de pastas esperada
+
+```
 projeto/
 ├── dashboard/
 │   └── app.R
@@ -18,165 +29,173 @@ projeto/
 │       ├── ro0924_norm.csv
 │       ├── ro1024_norm.csv
 │       └── ...
+```
 
+> Cada CSV segue o padrão `xxMMYY_norm.csv` (ex: `rn0924_norm.csv`), com colunas como `Nome`, `Cargo` e `Rendimento Líquido`.
 
-Cada CSV segue o padrão xxMMYY_norm.csv (ex: rn0924_norm.csv), com colunas como Nome, Cargo e Rendimento Líquido.
+---
 
-2. Requisitos
+### 🧩 Requisitos
 
-R versão ≥ 4.3
+- **R versão ≥ 4.3**
+- Os pacotes abaixo são instalados automaticamente na primeira execução:
 
-Pacotes (instalados automaticamente na primeira execução):
-
+```r
 shiny, shinydashboard, shinyWidgets, DT, dplyr, tidyr,
 readr, stringr, lubridate, janitor, purrr, plotly, scales
+```
 
-3. Execução
+---
+
+### ▶️ Execução
 
 Abra o R ou RStudio, navegue até a pasta do app e execute:
 
+```r
 setwd("projeto/dashboard")
 shiny::runApp("app.R")
-
+```
 
 O app abrirá automaticamente em:
 
+```
 http://127.0.0.1:xxxx
+```
 
-🧩 Estrutura do Dashboard
-🔹 1. Aba “Visão Geral”
+---
 
-Panorama geral do período e filtros principais.
+## 🧭 Estrutura do Dashboard
 
-Filtros disponíveis:
+### 🔹 1. **Visão Geral**
 
-Tribunal (TJGO, TJRN, TJRO)
+> Painel inicial com resumo de indicadores e filtros principais.
 
-Cargo (pode selecionar múltiplos)
+**Filtros disponíveis:**
+- Tribunal (TJGO, TJRN, TJRO)
+- Cargo (pode selecionar múltiplos)
+- Período (09/2024–08/2025)
+- Teto constitucional (padrão R$ 44.000)
+- Busca por nome de servidor
 
-Período (09/2024–08/2025)
+**Indicadores (KPIs):**
 
-Teto constitucional (padrão R$ 44.000)
+| Indicador | Significado |
+|------------|-------------|
+| 🧑‍💼 **Servidores distintos** | Número total de servidores únicos no filtro |
+| 💰 **Média** | Média da remuneração líquida |
+| ⚖️ **Mediana** | Valor mediano da remuneração líquida |
+| 🚨 **Acima do teto** | Quantidade de registros com remuneração > teto |
 
-Busca por nome de servidor
+**Gráficos e Tabelas:**
+- 📊 **Histograma** — distribuição das remunerações.
+- 📦 **Boxplot por Cargo** — dispersão salarial dos 10 cargos mais frequentes.
+- 📋 **Tabela por Função** — top 20 cargos com mais servidores.
 
-Indicadores (KPIs):
+---
 
-Indicador	Significado
-Servidores distintos	Número total de servidores únicos no filtro
-Média	Média da remuneração líquida
-Mediana	Valor mediano da remuneração líquida
-Acima do teto	Quantidade de registros com remuneração > teto
+### 🔹 2. **Maior Remuneração — Últimos 12 meses**
 
-Gráficos e Tabelas:
+Mostra os **servidores com maior remuneração mensal** considerando os últimos 12 meses do período analisado.
 
-📊 Histograma — distribuição das remunerações.
+Cada linha representa o **valor máximo recebido por servidor**, exibindo:
+- Nome  
+- Cargo  
+- Tribunal  
+- Competência  
+- Valor da remuneração  
 
-📦 Boxplot por Cargo — dispersão salarial dos 10 cargos mais frequentes.
+---
 
-📋 Tabela por Função — top 20 cargos com mais servidores.
-
-🔹 2. Aba “Maior Remuneração — Últimos 12 meses”
-
-Mostra os servidores com maior remuneração mensal considerando os últimos 12 meses do período analisado.
-
-Cada linha representa o valor máximo recebido por servidor no intervalo.
-
-Exibe nome, cargo, tribunal, competência e valor da remuneração.
-
-🔹 3. Aba “Teto & Impacto”
+### 🔹 3. **Teto & Impacto**
 
 Analisa o impacto financeiro de remunerações acima do teto constitucional.
 
-KPIs:
+**KPIs:**
 
-Indicador	Significado
-Registros acima do teto	Número de pagamentos que ultrapassaram o teto
-Impacto total	Soma total excedente ao teto
-Carreira com maior impacto	Cargo cuja soma de excedentes foi maior
+| Indicador | Significado |
+|------------|-------------|
+| 📈 **Registros acima do teto** | Número de pagamentos que ultrapassaram o teto |
+| 💸 **Impacto total** | Soma total excedente ao teto |
+| 🏛️ **Carreira com maior impacto** | Cargo cuja soma de excedentes foi maior |
 
-Tabela “Impacto por Cargo”:
+**Tabela “Impacto por Cargo”:**
+- **Impacto Total (R$)** — soma dos valores acima do teto  
+- **Servidores Afetados** — número de pessoas que ultrapassaram o teto  
+- **Impacto Per Capita (R$)** — média de excesso por servidor  
+- 🔽 É possível **baixar o CSV** da tabela
 
-Impacto Total (R$) — soma dos valores acima do teto;
+---
 
-Servidores Afetados — número de pessoas que ultrapassaram o teto;
+### 🔹 4. **Variação Remuneratória**
 
-Impacto Per Capita (R$) — média de excesso por servidor;
+Avalia as mudanças salariais ao longo do tempo.
 
-É possível baixar o CSV da tabela.
+**Tabelas:**
+1. **Ranking por Servidor (Δ máx − mín)**  
+   → Servidores com **maior variação salarial** no período.
+2. **Ranking por Cargo (Δ de média e mediana)**  
+   → Cargos com **maiores oscilações na média e mediana salarial**.
 
-🔹 4. Aba “Variação Remuneratória”
+---
 
-Avalia mudanças de remuneração ao longo do tempo.
-
-Gráficos/Tabelas:
-
-Ranking por Servidor (Δ máx − mín)
-Mostra os servidores com maior variação salarial no período.
-
-Ranking por Cargo (Δ de média e mediana)
-Mostra quais cargos tiveram maiores oscilações na média e mediana salarial.
-
-🔹 5. Aba “Trajetórias”
+### 🔹 5. **Trajetórias**
 
 Acompanha a evolução das remunerações ao longo dos meses.
 
-Gráficos:
+**Gráficos:**
+- 📈 **Trajetória por Servidor** — curva individual de remuneração ao longo do tempo.  
+  > Útil para visualizar gratificações, progressões e variações mensais.
+- 📉 **Trajetória por Cargo (média & mediana)** — evolução da média e mediana salarial do cargo selecionado.
 
-Trajetória por Servidor — exibe a curva individual de um servidor buscado por nome.
+---
 
-Útil para analisar progressões, gratificações ou pagamentos variáveis.
+### 🔹 6. **Análises Avançadas**
 
-Trajetória por Cargo (média & mediana) — evolução mensal da média e mediana salarial do cargo.
+Explora tendências, correlações e comparações entre tribunais.
 
-🔹 6. Aba “Análises Avançadas”
+**Gráficos incluídos:**
 
-Explora tendências e correlações gerais entre tribunais e períodos.
+1. 🧾 **Folha Total Mensal (R$)**  
+   Soma total das remunerações mês a mês e número de servidores ativos.  
+   > Mostra a evolução do gasto total com pessoal.
 
-Gráficos incluídos:
+2. ⚖️ **Média por TJ ao longo do tempo**  
+   Comparativo entre os três tribunais, evidenciando diferenças estruturais.
 
-🧾 Folha Total Mensal (R$)
-Soma total das remunerações mês a mês e número de servidores ativos.
+3. 🚨 **Excedentes ao teto por mês**  
+   Gráfico combinado:  
+   - **Barras** → quantidade de servidores acima do teto  
+   - **Linha** → impacto financeiro total dos excedentes  
 
-Mostra a evolução do gasto total com pessoal.
+---
 
-⚖️ Média por TJ ao longo do tempo
-Comparativo entre os três tribunais, evidenciando diferenças estruturais.
+### 🔹 7. **Dados (Auditoria)**
 
-🚨 Excedentes ao teto por mês
-Gráfico duplo com:
+Tabela completa dos registros filtrados (nome, cargo, tribunal, competência e valor).  
+Permite auditoria direta e exportação manual dos dados.
 
-Barras → quantidade de servidores acima do teto por mês;
+---
 
-Linha → impacto financeiro total dos excedentes.
+## 📘 Notas Técnicas
 
-🔹 7. Aba “Dados (Auditoria)”
+- Todos os valores foram tratados e convertidos para **formato numérico (R$)**.  
+- As datas de competência são inferidas automaticamente a partir dos nomes dos arquivos (`xxMMYY_norm.csv`).  
+- Casos de remuneração implausível (> 200.000) são automaticamente reescalonados.  
+- O teto constitucional padrão é **R$ 44.000**, mas pode ser ajustado dinamicamente.  
 
-Exibe a tabela completa dos registros filtrados (nome, cargo, tribunal, competência e valor).
-Permite auditoria direta e exportação manual de dados.
+---
 
-📘 Notas Técnicas
+## 🧠 Extensões Futuras (sugestões)
 
-Todos os valores foram tratados e convertidos para formato numérico padrão (R$).
+- 📊 Treemap da distribuição de cargos por tribunal  
+- 🔍 Detecção de outliers salariais (>3 desvios padrão)  
+- 🔗 Correlação entre número de servidores e média salarial  
+- 📈 Projeção da folha futura com regressão linear ou Prophet  
 
-Datas de competência foram inferidas automaticamente dos nomes dos arquivos (xxMMYY_norm.csv).
+---
 
-Casos de remuneração implausível (> 200.000) são automaticamente reescalonados.
+## 👨‍💻 Autor
 
-O teto constitucional padrão é R$ 44.000, mas pode ser alterado dinamicamente.
-
-🧠 Extensões futuras sugeridas
-
-Treemap da distribuição de cargos por tribunal;
-
-Detecção de outliers salariais (>3 desvios padrão);
-
-Correlação entre número de servidores e média salarial;
-
-Previsão da folha futura com regressão linear ou Prophet.
-
-👨‍💻 Autor
-
-Felipe Duarte
-Mestrado Profissional em Computação Aplicada – IPT
-Tema: Análise de Dados e Inteligência Artificial Aplicada à Administração Pública
+**Felipe Duarte**  
+Mestrado Profissional em Computação Aplicada – IPT  
+Tema: *Análise de Dados e Inteligência Artificial Aplicada à Administração Pública*
