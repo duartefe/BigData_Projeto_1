@@ -13,13 +13,22 @@ projeto/
 │   └── app.R
 ├── tjgo-xlsx/
 │   ├── dados_brutos/
-│   └── dados_normalizados/
+│   ├── dados_normalizados/
+│   ├── estudo_tjgo_xlsx.R
+│   ├── gera_novo_csv_norm_tjgo.R
+│   └── gera_todos_csv_norm_tjgo.R
 ├── tjrn-csv/
 │   ├── dados_brutos/
-│   └── dados_normalizados/
+│   ├── dados_normalizados/
+│   ├── estudo_tjrn_csv.R
+│   ├── gera_novo_csv_norm_tjrn.R
+│   └── gera_todos_csv_norm_tjrn.R
 ├── tjro-xml/
 │   ├── dados_brutos/
-│   └── dados_normalizados/
+│   ├── dados_normalizados/
+│   ├── estudo_tjro_xml.R
+│   ├── gera_novo_csv_norm_tjro.R
+│   └── gera_todos_csv_norm_tjro.R
 └── README.md
 ```
 
