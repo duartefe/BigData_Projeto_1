@@ -1,196 +1,120 @@
 # 🧭 Dashboard de Remuneração dos Servidores dos Tribunais de Justiça
 
-Este projeto consolida e analisa dados públicos de remuneração de servidores de três Tribunais de Justiça — **TJGO**, **TJRN** e **TJRO** — entre **setembro/2024 e agosto/2025**, a partir de arquivos CSV normalizados.
-
-O objetivo é permitir **análises comparativas, acompanhamento de variações salariais, identificação de excedentes ao teto constitucional** e **visualização de trajetórias remuneratórias** ao longo do tempo.
+Este projeto consolida e analisa dados públicos de remuneração de servidores de três Tribunais de Justiça — **TJGO**, **TJRN** e **TJRO** — entre **setembro/2024 e agosto/2025**.  
+Os dados passam por um **processo de ETL (extração, tratamento e normalização)** em R e alimentam o **dashboard Shiny** que permite análises consolidadas e comparativas.
 
 ---
 
-## ⚙️ Como executar o app
-
-### 🗂️ Estrutura de pastas esperada
+## ⚙️ Estrutura do projeto
 
 ```
 projeto/
 ├── dashboard/
 │   └── app.R
 ├── tjgo-xlsx/
+│   ├── dados_brutos/
 │   └── dados_normalizados/
-│       ├── go0924_norm.csv
-│       ├── go1024_norm.csv
-│       └── ...
 ├── tjrn-csv/
+│   ├── dados_brutos/
 │   └── dados_normalizados/
-│       ├── rn0924_norm.csv
-│       ├── rn1024_norm.csv
-│       └── ...
 ├── tjro-xml/
+│   ├── dados_brutos/
 │   └── dados_normalizados/
-│       ├── ro0924_norm.csv
-│       ├── ro1024_norm.csv
-│       └── ...
+└── README.md
 ```
 
-> Cada CSV segue o padrão `xxMMYY_norm.csv` (ex: `rn0924_norm.csv`), com colunas como `Nome`, `Cargo` e `Rendimento Líquido`.
+> Cada TJ possui três scripts `.R` responsáveis por estudar, limpar e gerar os arquivos CSV normalizados usados no dashboard.
 
 ---
 
-### 🧩 Requisitos
+## 📘 Etapas de Processamento e Normalização
 
-- **R versão ≥ 4.3**
-- Os pacotes abaixo são instalados automaticamente na primeira execução:
+Cada Tribunal de Justiça (TJGO, TJRN, TJRO) possui **três scripts principais** que realizam o pré-processamento dos dados:
 
-```r
-shiny, shinydashboard, shinyWidgets, DT, dplyr, tidyr,
-readr, stringr, lubridate, janitor, purrr, plotly, scales
-```
+### 1️⃣ Estudo inicial dos dados
+**Objetivo:** analisar a estrutura original e criar a função de normalização dos cargos/funções.
 
----
+Este script:
+- Lê o arquivo bruto (`dados_brutos/`);
+- Analisa colunas como `Nome`, `Cargo` e `Rendimento Líquido`;
+- Lista e inspeciona valores únicos de cargos;
+- Define a função `normalizar_cargos()`, que agrupa diferentes descrições de cargos em categorias padronizadas (ex.: *MAGISTRADO*, *ANALISTA*, *TÉCNICO*, *OFICIAL DE JUSTIÇA*, *ASSESSORIA/COMISSIONADO*, etc.).
 
-### ▶️ Execução
+### 2️⃣ Geração de um CSV normalizado (teste)
+**Objetivo:** aplicar a função de normalização e conferir o resultado em um único mês.
 
-Abra o R ou RStudio, navegue até a pasta do app e execute:
+Este script:
+- Lê um arquivo bruto específico (ex.: `rn0125.csv`);
+- Aplica limpeza nos nomes (maiúsculas, sem espaços);
+- Normaliza o campo de cargo;
+- Formata o campo de remuneração em padrão brasileiro (vírgula como decimal);
+- Renomeia as colunas para o padrão do dashboard (`NOME`, `CARGO`, `RENDIMENTO LIQUIDO`);
+- Gera um arquivo normalizado de conferência em `dados_normalizados/` (ex.: `rn0125_norm.csv`).
 
-```r
-setwd("projeto/dashboard")
-shiny::runApp("app.R")
-```
+### 3️⃣ Geração de todos os CSVs normalizados (processamento em lote)
+**Objetivo:** aplicar o mesmo processo a todos os meses disponíveis.
 
-O app abrirá automaticamente em:
+Este script:
+- Lista todos os arquivos da pasta `dados_brutos/` (ex.: `rn0924.csv`, `rn1024.csv`, etc.);
+- Para cada arquivo:
+  - Lê apenas as colunas necessárias;
+  - Aplica a função `normalizar_cargos()`;
+  - Formata o campo de remuneração;
+  - Renomeia colunas para o padrão do dashboard;
+  - Gera o arquivo `_norm.csv` correspondente na pasta `dados_normalizados/`;
+- Exibe no console os arquivos processados e confirma a conclusão.
 
-```
-http://127.0.0.1:xxxx
-```
-
----
-
-## 🧭 Estrutura do Dashboard
-
-### 🔹 1. **Visão Geral**
-
-> Painel inicial com resumo de indicadores e filtros principais.
-
-**Filtros disponíveis:**
-- Tribunal (TJGO, TJRN, TJRO)
-- Cargo (pode selecionar múltiplos)
-- Período (09/2024–08/2025)
-- Teto constitucional (padrão R$ 44.000)
-- Busca por nome de servidor
-
-**Indicadores (KPIs):**
-
-| Indicador | Significado |
-|------------|-------------|
-| 🧑‍💼 **Servidores distintos** | Número total de servidores únicos no filtro |
-| 💰 **Média** | Média da remuneração líquida |
-| ⚖️ **Mediana** | Valor mediano da remuneração líquida |
-| 🚨 **Acima do teto** | Quantidade de registros com remuneração > teto |
-
-**Gráficos e Tabelas:**
-- 📊 **Histograma** — distribuição das remunerações.
-- 📦 **Boxplot por Cargo** — dispersão salarial dos 10 cargos mais frequentes.
-- 📋 **Tabela por Função** — top 20 cargos com mais servidores.
+**Resultado final:**  
+Cada TJ passa a ter uma série de arquivos normalizados (`xxMMYY_norm.csv`), padronizados e prontos para serem lidos pelo dashboard Shiny.
 
 ---
 
-### 🔹 2. **Maior Remuneração — Últimos 12 meses**
+## 🧭 Estrutura e Execução do Dashboard
 
-Mostra os **servidores com maior remuneração mensal** considerando os últimos 12 meses do período analisado.
+### ▶️ Como rodar o app
 
-Cada linha representa o **valor máximo recebido por servidor**, exibindo:
-- Nome  
-- Cargo  
-- Tribunal  
-- Competência  
-- Valor da remuneração  
-
----
-
-### 🔹 3. **Teto & Impacto**
-
-Analisa o impacto financeiro de remunerações acima do teto constitucional.
-
-**KPIs:**
-
-| Indicador | Significado |
-|------------|-------------|
-| 📈 **Registros acima do teto** | Número de pagamentos que ultrapassaram o teto |
-| 💸 **Impacto total** | Soma total excedente ao teto |
-| 🏛️ **Carreira com maior impacto** | Cargo cuja soma de excedentes foi maior |
-
-**Tabela “Impacto por Cargo”:**
-- **Impacto Total (R$)** — soma dos valores acima do teto  
-- **Servidores Afetados** — número de pessoas que ultrapassaram o teto  
-- **Impacto Per Capita (R$)** — média de excesso por servidor  
-- 🔽 É possível **baixar o CSV** da tabela
+1. Abra o R ou Positron.
+2. Defina o diretório de trabalho:
+   ```r
+   setwd("projeto/dashboard")
+   ```
+3. Execute o app:
+   ```r
+   shiny::runApp("app.R")
+   ```
+4. O app abrirá automaticamente em `http://127.0.0.1:xxxx`.
 
 ---
 
-### 🔹 4. **Variação Remuneratória**
+## 🧩 Abas do Dashboard
 
-Avalia as mudanças salariais ao longo do tempo.
-
-**Tabelas:**
-1. **Ranking por Servidor (Δ máx − mín)**  
-   → Servidores com **maior variação salarial** no período.
-2. **Ranking por Cargo (Δ de média e mediana)**  
-   → Cargos com **maiores oscilações na média e mediana salarial**.
-
----
-
-### 🔹 5. **Trajetórias**
-
-Acompanha a evolução das remunerações ao longo dos meses.
-
-**Gráficos:**
-- 📈 **Trajetória por Servidor** — curva individual de remuneração ao longo do tempo.  
-  > Útil para visualizar gratificações, progressões e variações mensais.
-- 📉 **Trajetória por Cargo (média & mediana)** — evolução da média e mediana salarial do cargo selecionado.
+| Aba | Conteúdo |
+|-----|-----------|
+| **Visão Geral** | KPIs (servidores distintos, média, mediana, acima do teto), histograma, boxplot e tabela por função |
+| **Maior Remuneração** | Servidores com maior remuneração mensal no último ano |
+| **Teto & Impacto** | Excedentes ao teto constitucional, impacto total e por cargo |
+| **Variação Remuneratória** | Servidores e cargos com maior variação salarial |
+| **Trajetórias** | Evolução das remunerações por servidor ou cargo |
+| **Análises Avançadas** | Tendências, médias por TJ, folha mensal e excedentes ao teto |
+| **Dados (Auditoria)** | Tabela detalhada com todos os registros filtrados |
 
 ---
 
-### 🔹 6. **Análises Avançadas**
+## 🔧 Notas Técnicas
 
-Explora tendências, correlações e comparações entre tribunais.
-
-**Gráficos incluídos:**
-
-1. 🧾 **Folha Total Mensal (R$)**  
-   Soma total das remunerações mês a mês e número de servidores ativos.  
-   > Mostra a evolução do gasto total com pessoal.
-
-2. ⚖️ **Média por TJ ao longo do tempo**  
-   Comparativo entre os três tribunais, evidenciando diferenças estruturais.
-
-3. 🚨 **Excedentes ao teto por mês**  
-   Gráfico combinado:  
-   - **Barras** → quantidade de servidores acima do teto  
-   - **Linha** → impacto financeiro total dos excedentes  
+- O campo **`RENDIMENTO LIQUIDO`** é convertido e tratado automaticamente no app Shiny.  
+- As **datas de competência** são extraídas do nome do arquivo (`xxMMYY_norm.csv`).  
+- O **teto constitucional** é fixo em R$ 44.000 (ajustável no painel).  
+- Casos extremos de remuneração (> R$ 200.000) são filtrados automaticamente no carregamento.
 
 ---
 
-### 🔹 7. **Dados (Auditoria)**
+## 🧠 Extensões Futuras
 
-Tabela completa dos registros filtrados (nome, cargo, tribunal, competência e valor).  
-Permite auditoria direta e exportação manual dos dados.
-
----
-
-## 📘 Notas Técnicas
-
-- Todos os valores foram tratados e convertidos para **formato numérico (R$)**.  
-- As datas de competência são inferidas automaticamente a partir dos nomes dos arquivos (`xxMMYY_norm.csv`).  
-- Casos de remuneração implausível (> 200.000) são automaticamente reescalonados.  
-- O teto constitucional padrão é **R$ 44.000**, mas pode ser ajustado dinamicamente.  
-
----
-
-## 🧠 Extensões Futuras (sugestões)
-
-- 📊 Treemap da distribuição de cargos por tribunal  
-- 🔍 Detecção de outliers salariais (>3 desvios padrão)  
-- 🔗 Correlação entre número de servidores e média salarial  
-- 📈 Projeção da folha futura com regressão linear ou Prophet  
+- Detecção automática de outliers salariais (>3 desvios padrão)  
+- Projeção da folha salarial futura  
+- Clusterização de cargos por faixa de remuneração  
+- Dashboard comparativo entre TJs por carreira e impacto orçamentário
 
 ---
 
